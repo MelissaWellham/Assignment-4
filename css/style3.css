@@ -1,0 +1,280 @@
+ 
+
+body {
+  font-family: 'Open Sans',serif; 
+  color: #606161;
+}
+
+.main_header {
+  background-image: url("header_bg.jpg");
+  background-color: #033048;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  padding: 50px;
+}
+
+.blog_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("header_bg.jpg");
+  background-color: #033048;
+  padding: 25px 50px;
+}
+
+.mainlogo {
+  font-size: 30px;
+  text-align: left;
+  font-weight: 800;
+  color: white;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+}
+
+nav {
+  width: 60%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav a {
+  color: #f9e42e;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.blog_container {
+  display: flex;
+  justify-content: center;
+   background: #f0efef;
+}
+
+.blogcontent {
+  width: 700px;
+}
+
+aside {
+  width: 240px;
+}
+
+.blogpost {
+  width: 80%;
+  padding: 20px;
+  margin: 30px;
+  line-height: 1.5;
+  border-bottom: 1px solid black;
+}
+
+.hero_image {
+  background-position: center;
+  width: 100%;
+}
+
+.blogpost .link {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.blogpost .link a {
+  float: right;
+  color: #033048;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.blogpost h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+}
+
+.blogpost p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.box {
+  width: 80%;
+  padding: 20px;
+  padding-left: 0;
+  line-height: 1.5;
+}
+
+.box h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #033048;
+}
+
+aside ul li a {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+aside p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.aboutLink {
+  font-size: 16px;
+  font-weight: 600;
+  color: #033048;
+}
+
+#signupnow {
+  padding: 20px;
+  background: #f9e42e;
+  text-align: center;
+}
+
+#signupnow .button {
+ font-weight: 800;
+  font-size: 12px;
+  color: white;
+  background: #033048;
+  padding: 20px 40px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#social {
+	background: #121212;
+}
+
+#social ul {
+ font-family: 'Open Sans',serif;  
+  font-weight: lighter;
+  font-size: 13px;
+  list-style-type: none;
+  text-align: center;
+}
+
+#social li {
+    display: inline;
+}
+
+#social .logo {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #f9e42e;
+}
+
+#social img {
+  padding: 20px;
+}
+
+footer {
+  font-size: 9px;
+  color: #606161;
+  text-align: center;
+  background: #121212;
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+.mainh2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  padding: 50px;
+}
+
+#getitnow button {
+  font-weight: 800;
+  font-size: 14px;
+  background-color: #f9e42e;
+  padding: 20px 40px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#benefits {
+  background: #f0efef;
+  padding: 50px;
+}
+
+#benefits h2 {
+  font-family: 'Open Sans',serif; 
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+}
+
+#benefits p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #606161;
+}
+
+#benefits ul {
+  font-size: 13px;
+  font-weight: 400;
+  color: #606161;
+    list-style-type: disc; 
+   list-style-position: inside; 
+   padding-left: 50px;
+}
+
+#testimonial {
+  background-image: url("testimonial_bg.jpg");
+  background-size: cover;
+  height: 200px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 50px;
+}
+
+#testimonial .quote {
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  color: #f0efef;
+  padding: 50px 100px 0px 100px;
+}
+
+#testimonial .quotename {
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  color: #f0efef;
+}
+
+.blogpost p:first-letter {
+  font-size: 50px;
+  color: #033048;
+  float: left; 
+  font-size: 75px; 
+  line-height: 60px; 
+  padding-top: 4px; 
+  padding-right: 8px; 
+  padding-left: 3px;
+}
+
+.hide {
+  display: none;
+}
+
+.showblog {
+  display: none;
+}
+
